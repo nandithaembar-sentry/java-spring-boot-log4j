@@ -1,9 +1,9 @@
 # Must have `sentry-cli` installed globally
 # Following variable must be passed in
-#  SENTRY_AUTH_TOKEN
+SENTRY_AUTH_TOKEN=4d72bbc9473c4b40891d662836a1678209e361cec803409abd25f68ad0c6f276
 
 SENTRY_ORG=testorg-az
-SENTRY_PROJECT=hardware-store-spring-log4j2
+SENTRY_PROJECT=nanditha-java
 VERSION=`sentry-cli releases propose-version`
 
 deploy: setup_release run_jar
